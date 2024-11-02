@@ -35,8 +35,8 @@ fn random_message<'a>(quotes: &'a [&'a str]) -> &'a str {
 fn main() {
     let mut tasks = Vec::new();
     println!("{}", "Welcome to Mayor's To-Do!".bold().cyan());
-    let add_msgs = ["You can do it! 🚀", "Keep pushing forward! 💪", "One task at a time! 🌟"];
-    let complete_msgs = ["Great job! 🎉", "One down, many to go! 🌈", "Another task bites the dust! 🕺"];
+    let add_msgs = ["You can do it!", "One task at a time!"];
+    let complete_msgs = ["Great job!", "One down, many to go! "];
 
     loop {
         println!("\n1. Add task\n2. Complete task\n3. View tasks\n4. Exit");
